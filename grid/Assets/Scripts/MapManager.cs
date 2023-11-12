@@ -14,6 +14,7 @@ public class MapManager : MonoBehaviour
         members = new GameObject[3];
         enemies = new GameObject[3];
         mapGenerator = GetComponent<MapGenerator>();
+        /*pathfinding function*/
     }
 
     // Update is called once per frame
@@ -21,20 +22,5 @@ public class MapManager : MonoBehaviour
     {
         
     }
+}
 
-}
-public class Character
-{
-    int posX;
-    int PosZ;
-    int tarPosX;
-    int tarPosY;
-}
-public class Members : Character
-{
-
-}
-public class Enemy : Character
-{
-
-}

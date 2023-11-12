@@ -8,6 +8,7 @@ public class CharacterControl : MonoBehaviour
     MapGenerator mapGenerator;
     public Vector2Int position;
     public GameObject target;
+    public Vector2Int nextStep;
     // Start is called before the first frame update
     void Start()
     {
