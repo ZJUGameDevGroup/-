@@ -17,8 +17,9 @@ public class Hexagon : MonoBehaviour
     public int ring;
     [ReadOnly]
     public AreaType area;
+    public Vector3 moveLeftUp, moveRightUp;
     [ReadOnly]
-    public Vector3 moveLeftUp, moveRightUp, moveUp, moveDown, moveLeftDown, moveRightDown;
+    public Vector3 moveUp, moveDown, moveLeftDown, moveRightDown;
     public enum AreaType
     {
         CENTER, AXIS_UP, RIGHT_UP, AXIS_RIGHT_UP, RIGHT, AXIS_RIGHT_DOWN, RIGHT_DOWN,
